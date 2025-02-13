@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: teal;
+    background-color: rgb(45, 214, 110);
     flex-direction: column;
     display: flex;
     justify-content: center;
