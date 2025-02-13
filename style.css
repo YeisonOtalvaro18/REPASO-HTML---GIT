@@ -80,3 +80,63 @@ th {
     background-color: #007BFF;
     color: white;
 }
+input[type="button"]:hover {
+    background-color: #0056b3;
+}
+
+
+@media (max-width: 1024px) {
+    h1, h2, h3 {
+        font-size: 80px;
+    }
+    
+    .padre {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+
+    .hijo {
+        width: 80%;
+        height: auto;
+        font-size: 18px;
+    }
+
+    form {
+        width: 60%;
+    }
+
+    table {
+        width: 90%;
+    }
+}
+
+
+@media (max-width: 768px) {
+    h1, h2, h3 {
+        font-size: 50px;
+    }
+
+    .hijo {
+        width: 90%;
+        font-size: 16px;
+    }
+
+    form {
+        width: 80%;
+        font-size: 20px;
+    }
+
+    input {
+        font-size: 20px;
+    }
+
+    table {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    th, td {
+        padding: 5px;
+    }
+}
